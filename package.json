@@ -1,0 +1,31 @@
+{
+    "type": "module",
+    "scripts": {
+        "dev": "cross-env PORT=4000 nodemon src/index.js",
+        "start": "cross-env PORT=4000 node src/index.js",
+        "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+    },
+    "dependencies": {
+        "bcryptjs": "^3.0.3",
+        "bull": "^4.16.5",
+        "cookie-parser": "^1.4.7",
+        "cors": "^2.8.5",
+        "cross-env": "^10.1.0",
+        "csv-parser": "^3.2.0",
+        "dotenv": "^17.2.3",
+        "express": "^5.2.1",
+        "ioredis": "^5.8.2",
+        "jsonwebtoken": "^9.0.3",
+        "multer": "^2.0.2",
+        "socket.io": "^4.8.3",
+        "uuid": "^13.0.0"
+    },
+    "devDependencies": {
+        "@types/jest": "^30.0.0",
+        "@types/supertest": "^6.0.3",
+        "jest": "^30.2.0",
+        "nodemon": "^3.1.11",
+        "supertest": "^7.1.4",
+        "ts-jest": "^29.4.6"
+    }
+}
